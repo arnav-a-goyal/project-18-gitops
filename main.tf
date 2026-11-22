@@ -10,5 +10,5 @@ terraform {
 resource "local_file" "deployment" {
   filename = "deployment.txt"
 
-  content = "Project 18 version 2 deployed through GitHub Actions."
+  content = "Project 18 deployment applied through GitHub Actions."
 }
